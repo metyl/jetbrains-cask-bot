@@ -21,6 +21,13 @@ buffer-shims@^1.0.0:
   version "1.0.0"
   resolved "https://artifactory.eccenca.com/api/npm/npm/buffer-shims/-/buffer-shims-1.0.0.tgz#9978ce317388c649ad8793028c3477ef044a8b51"
 
+call-bind@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
+  dependencies:
+    function-bind "^1.1.1"
+    get-intrinsic "^1.0.2"
+
 child-process-promise@^2.2.0:
   version "2.2.0"
   resolved "https://artifactory.eccenca.com/api/npm/npm/child-process-promise/-/child-process-promise-2.2.0.tgz#08f6c9ed7848c770c0a2539cb132f4ce0840a866"
@@ -94,6 +101,18 @@ fs-extra@^2.0.0:
     graceful-fs "^4.1.2"
     jsonfile "^2.1.0"
 
+function-bind@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
+
+get-intrinsic@^1.0.2:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.1.1.tgz#15f59f376f855c446963948f0d24cd3637b4abc6"
+  dependencies:
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.1"
+
 github@^8.1.1:
   version "8.1.1"
   resolved "https://artifactory.eccenca.com/api/npm/npm/github/-/github-8.1.1.tgz#a078c61669b4d4b588bf1b2e2a591eb7c49feb36"
@@ -106,6 +125,16 @@ github@^8.1.1:
 graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://artifactory.eccenca.com/api/npm/npm/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
+
+has-symbols@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.2.tgz#165d3070c00309752a1236a479331e3ac56f1423"
+
+has@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/has/-/has-1.0.3.tgz#722d7cbfc1f6aa8241f16dd814e011e1f41e8796"
+  dependencies:
+    function-bind "^1.1.1"
 
 https-proxy-agent@^1.0.0:
   version "1.0.0"
@@ -174,6 +203,10 @@ node-version@^1.0.0:
   version "1.0.0"
   resolved "https://artifactory.eccenca.com/api/npm/npm/node-version/-/node-version-1.0.0.tgz#1b9b9584a9a7f7a6123f215cd14a652bf21ab19e"
 
+object-inspect@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.9.0.tgz#c90521d74e1127b67266ded3394ad6116986533a"
+
 process-nextick-args@~1.0.6:
   version "1.0.7"
   resolved "https://artifactory.eccenca.com/api/npm/npm/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
@@ -187,8 +220,10 @@ pseudomap@^1.0.1:
   resolved "https://artifactory.eccenca.com/api/npm/npm/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
 qs@^6.1.0:
-  version "6.3.0"
-  resolved "https://artifactory.eccenca.com/api/npm/npm/qs/-/qs-6.3.0.tgz#f403b264f23bc01228c74131b407f18d5ea5d442"
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.10.1.tgz#4931482fa8d647a5aab799c5271d2133b981fb6a"
+  dependencies:
+    side-channel "^1.0.4"
 
 readable-stream@^2.0.5:
   version "2.2.2"
@@ -205,6 +240,14 @@ readable-stream@^2.0.5:
 semver@~5.0.1:
   version "5.0.3"
   resolved "https://artifactory.eccenca.com/api/npm/npm/semver/-/semver-5.0.3.tgz#77466de589cd5d3c95f138aa78bc569a3cb5d27a"
+
+side-channel@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/side-channel/-/side-channel-1.0.4.tgz#efce5c8fdc104ee751b25c58d4290011fa5ea2cf"
+  dependencies:
+    call-bind "^1.0.0"
+    get-intrinsic "^1.0.2"
+    object-inspect "^1.9.0"
 
 stream-consume@^0.1.0:
   version "0.1.0"
